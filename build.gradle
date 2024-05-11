@@ -175,7 +175,7 @@ dependencies {
 
     implementation fg.deobf("org.embeddedt:embeddium-${minecraft_version}:${embeddium_version}+mc${minecraft_version}")
 
-    implementation fg.deobf("maven.modrinth:oculus:${iris_version}")
+    implementation fg.deobf(files('oculus-mc1.20.1-1.7.0.jar'))
 
     implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
     implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
